@@ -1,0 +1,22 @@
+{
+    "auth0": {
+        "domain": "YOUR_NAMESPACE",
+        "redirect": "http://YOUR_APP/callback",
+        "client": {
+            "id": "YOUR_CLIENT_ID",
+            "secret": "YOUR_CLIENT_SECRET"
+        }
+    },
+    "log" : {
+        "enabled": true,
+        "query": true,
+        "path": "log/debug.log"
+    },
+    "db": {
+        "host": "localhost",
+        "port": "3306",
+        "dbname": "pollonga",
+        "username": "root",
+        "password": ""
+    }
+}
